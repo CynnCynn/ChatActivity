@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context="com.example.lenovo.chatactivity.WelcomeActivity">
+    <TextView
+        android:id="@+id/welcome_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tom"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="146dp"
+        android:layout_marginTop="185dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello，"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/welcome_user"
+        android:layout_alignBottom="@+id/welcome_user"
+        android:layout_toStartOf="@+id/welcome_user" />
+
+</RelativeLayout>
